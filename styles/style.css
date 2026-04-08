@@ -30,6 +30,7 @@
     background-position: top center;
     background-repeat: no-repeat;
     margin: 0 auto;
+    position: relative;
 
 
 }
@@ -43,6 +44,21 @@
 
 .description {
     text-align: center;
+}
+
+/* Countdown Timer Styles */
+#countdown {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 .newyearsubtitle,
@@ -122,12 +138,15 @@
 }
 
 .joinnow {
+    margin-top: 10px;
     background-color: transparent;
     color: #ffffff;
     font-size: 20px;
     border: none;
-    padding-top: 48px;
-    padding-left: 38px;
+    padding: 16px 32px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
 }
 
 .card2>img {
@@ -478,6 +497,18 @@ footer {
     padding-top: 9px;
 }
 
+.contact-link {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.contact-link:hover {
+    color: green;
+
+
+}
+
 .icons {
     padding-right: 24px;
     padding-top: 48px;
@@ -524,6 +555,26 @@ footer {
 .c5img:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
+}
+
+.icons:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.github-icon {
+    background-color: whitesmoke;
+    border-radius: 100%;
+    padding: 2px;
+}
+
+/* Clickable Cursors */
+.joinnow,
+.c2btn,
+.emailbtn,
+.c5img,
+.icons {
+    cursor: pointer;
 }
 
 /* Responsive Design */
