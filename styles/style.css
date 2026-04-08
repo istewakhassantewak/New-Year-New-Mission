@@ -263,6 +263,7 @@
     margin-top: 120px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 120px;
 }
 
 .que {
@@ -345,6 +346,7 @@
     margin: 0 auto;
     width: 1320px;
     height: 1163px;
+    margin-top: 120px;
 
 }
 
@@ -526,200 +528,221 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 1200px) {
-    .header, .card2, .card3 .destination, .comingsoon, .card4, .card5, .card6, .promo-container, .base-banner {
+
+    .header,
+    .card2,
+    .card3 .destination,
+    .comingsoon,
+    .card4,
+    .card5,
+    .card6,
+    .promo-container,
+    .base-banner {
         width: 100%;
         max-width: 1200px;
     }
 }
 
 @media (max-width: 768px) {
-    .header, .card2, .card3 .destination, .comingsoon, .card4, .card5, .card6, .promo-container, .base-banner {
+
+    .header,
+    .card2,
+    .card3 .destination,
+    .comingsoon,
+    .card4,
+    .card5,
+    .card6,
+    .promo-container,
+    .base-banner {
         width: 100%;
         max-width: 100%;
         height: auto;
     }
-    
+
     .card1 {
         padding: 60px 20px;
     }
-    
+
     .card1 .discount {
         font-size: 60px;
     }
-    
+
     .discountdescription {
         font-size: 18px;
     }
-    
+
     .categories {
         font-size: 36px;
     }
-    
+
     .card1>img {
         width: 100%;
         height: auto;
         max-width: 500px;
     }
-    
+
     .c2details {
         padding-left: 20px;
         padding-right: 20px;
         text-align: center;
     }
-    
+
     .c2heading {
         font-size: 48px;
     }
-    
+
     .joinnow {
         padding-top: 20px;
         padding-left: 0;
     }
-    
+
     .card2>img {
         padding-right: 0;
         width: 100%;
         height: auto;
         max-width: 300px;
     }
-    
+
     .card3 .destination {
         flex-direction: column;
         padding: 40px 20px;
     }
-    
+
     .c3details {
         font-size: 24px;
     }
-    
+
     .comingsoon {
         flex-direction: column;
         height: auto;
         padding: 40px 20px;
     }
-    
+
     .cshead {
         margin: 20px 0;
         padding-top: 0;
         text-align: center;
     }
-    
+
     .csdesc {
         height: auto;
         width: 100%;
     }
-    
+
     .csimg {
         width: 200px;
         height: 200px;
         padding: 20px;
     }
-    
+
     .right {
         margin-left: 0;
         text-align: center;
     }
-    
+
     .card4 {
         padding: 40px 20px;
         height: auto;
     }
-    
+
     .c4head {
         font-size: 48px;
     }
-    
+
     .c4desc {
         width: 100%;
         height: auto;
     }
-    
+
     .promo-container {
         height: auto;
         position: static;
     }
-    
-    .base-banner, .shopper-img, .gift-box, .discount-badge {
+
+    .base-banner,
+    .shopper-img,
+    .gift-box,
+    .discount-badge {
         position: static;
         width: 100%;
         height: auto;
         margin: 10px 0;
     }
-    
+
     .card5 {
         padding: 40px 20px;
         height: auto;
     }
-    
+
     .c5subtitle {
         font-size: 36px;
     }
-    
+
     .c5desc {
         width: 100%;
     }
-    
+
     .c5images {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    
+
     .c5img {
         width: calc(50% - 10px);
         height: auto;
     }
-    
+
     .card6 {
         padding: 40px 20px;
         height: auto;
     }
-    
+
     .c6title {
         font-size: 36px;
     }
-    
+
     .c6desc {
         width: 100%;
         height: auto;
     }
-    
+
     .emailholder {
         width: 100%;
         flex-direction: column;
     }
-    
+
     .email {
         border-radius: 25px 25px 0 0;
         width: 100%;
     }
-    
+
     .emailbtn {
         border-radius: 0 0 25px 25px;
         width: 100%;
     }
-    
+
     .around {
         flex-direction: column;
         padding: 40px 20px;
         text-align: center;
     }
-    
+
     .around>address {
         width: 100%;
     }
-    
+
     .around1 {
         flex-direction: column;
         padding: 20px;
         text-align: center;
     }
-    
+
     .imgicons {
         flex-direction: row;
         flex-wrap: wrap;
     }
-    
+
     .icons {
         padding: 10px;
     }
@@ -729,19 +752,20 @@ footer {
     .newyeartitle {
         font-size: 24px;
     }
-    
-    .newyearsubtitle, .newyeardescription {
+
+    .newyearsubtitle,
+    .newyeardescription {
         font-size: 48px;
     }
-    
+
     .c2heading {
         font-size: 36px;
     }
-    
+
     .c4head {
         font-size: 36px;
     }
-    
+
     .c5img {
         width: 100%;
     }
