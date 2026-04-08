@@ -12,9 +12,14 @@
     padding: 0;
 }
 
+/* mixed style  */
+.red {
+    color: #FF0000;
+}
+
 /* header styles  */
 .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../resources/Banner\ Image.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../resources/Banner Image.png");
     background-size: cover;
     display: flex;
     align-items: center;
@@ -79,7 +84,7 @@
 }
 
 .card2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../resources/Vectorrr.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../resources/Vectorrr.png");
     background-size: cover;
     display: flex;
     align-items: center;
@@ -90,6 +95,7 @@
     background-position: top center;
     background-repeat: no-repeat;
     margin: 0 auto;
+
 }
 
 .c2details {
@@ -106,6 +112,10 @@
 
 }
 
+.midnight-party {
+    padding-bottom: 25px;
+}
+
 .c2desc {
     color: #ffffff;
     font-size: 18px;
@@ -117,9 +127,622 @@
     font-size: 20px;
     border: none;
     padding-top: 48px;
+    padding-left: 38px;
 }
 
 .card2>img {
     padding-right: 150px;
 
+}
+
+.card3 {
+    margin-top: 48px;
+}
+
+.card3 .destination {
+    text-align: center;
+    background-color: rgba(255, 77, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    stroke: #000000;
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.c3details {
+    color: #070211;
+    font-size: 32px;
+    font-weight: semi-bold;
+
+}
+
+.gap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 48px;
+}
+
+.c2btn {
+
+    border: none;
+    background-color: #FF0000;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 16px 32px;
+    cursor: pointer;
+    border-radius: 8px;
+
+
+}
+
+.comingsoon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 1320px;
+    height: 600px;
+    margin-top: 120px;
+
+}
+
+.titlecs {
+    font-size: 24px;
+    font-weight: medium;
+
+}
+
+.cs {
+    color: black;
+    font-size: 48px;
+    padding-top: 9px;
+}
+
+.csdesc {
+    height: 393px;
+    width: 255px;
+    color: #070211;
+    font-size: 20px;
+    padding-top: 9px;
+}
+
+.cshead {
+
+    margin: 104px 70px 104px 0px;
+    padding-top: 90px;
+
+
+}
+
+.csimg {
+    border: 13px solid #FF0000;
+    border-radius: 263px;
+    padding: 49px;
+    height: 364px;
+    width: 364px;
+
+
+}
+
+.csd2 {
+    margin: 80px 0px 80px 0px;
+}
+
+.right {
+    margin-left: 118px;
+}
+
+
+
+.y24 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.y24details {
+    color: #070211;
+    font-size: 20px;
+    padding-top: 9px;
+    width: 170px;
+}
+
+.y24img {
+    height: 140px;
+    width: 140px;
+    padding-top: 43px;
+}
+
+.card4 {
+    text-align: center;
+    margin: 0 auto;
+    width: 1320px;
+    height: 986px;
+    margin-top: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.que {
+    color: #070211;
+    font-size: 24px;
+}
+
+.c4head {
+    font-size: 72px;
+    padding-top: 9px;
+    color: #070211;
+
+}
+
+.c4desc {
+    color: #070211;
+    font-size: 20px;
+    padding-top: 9px;
+    height: 96px;
+    width: 1068px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.promo-container {
+    position: relative;
+    width: 1320px;
+    height: 786px;
+    margin: 0 auto;
+
+
+}
+
+
+.base-banner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1320px;
+    height: 229px;
+    z-index: 1;
+
+}
+
+
+.shopper-img {
+    position: absolute;
+    right: 0;
+    top: 63px;
+    width: 429px;
+    height: 433px;
+
+    z-index: 2;
+}
+
+
+.gift-box {
+    position: absolute;
+    left: 1%;
+    bottom: 32px;
+
+    width: 674px;
+    height: 577px;
+
+    z-index: 3;
+}
+
+.discount-badge {
+    position: absolute;
+    right: 24%;
+    top: 31%;
+    width: 220px;
+    height: 220px;
+    z-index: 4;
+
+}
+
+.card5 {
+
+    margin: 0 auto;
+    width: 1320px;
+    height: 1163px;
+
+}
+
+.c5title {
+    font-size: 24px;
+    font-weight: medium;
+
+}
+
+.c5subtitle {
+    font-size: 48px;
+    color: #070211;
+    padding-top: 20px;
+}
+
+.c5desc {
+    color: #070211;
+    font-size: 20px;
+    padding-top: 30px;
+    width: 896px;
+}
+
+.c5images {
+    padding-top: 48px;
+}
+
+.c5img {
+    padding: 5px;
+    height: 450px;
+    width: 424px;
+}
+
+.card6 {
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: rgba(255, 77, 0, 0.1);
+    width: 1320px;
+    height: 616px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.c6img {
+    height: 150px;
+    width: 150px;
+    margin-top: 80px;
+}
+
+.c6title {
+    font-size: 48px;
+    color: #070211;
+    padding-top: 40px;
+}
+
+.c6desc {
+    color: #070211;
+    font-size: 20px;
+    padding-top: 22px;
+    width: 896px;
+    height: 64px;
+    margin: 0 auto;
+}
+
+.emailholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+    width: 648px;
+    height: 72px;
+    margin: 0 auto;
+
+}
+
+.email {
+    background-color: #ffffff;
+    color: #070211;
+    border-radius: 50px 0 0 50px;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.emailbtn {
+    background-color: #FF0000;
+    color: #ffffff;
+    border-radius: 0 50px 50px 0;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #070211;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+    margin-top: 120px;
+}
+
+.around {
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 140px;
+    padding-right: 275px;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.around>address {
+    width: 375px;
+    height: 80px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: medium;
+}
+
+.footer-socials {
+    font-size: 24px;
+    font-weight: medium;
+    text-align: left;
+}
+
+.contact-item {
+    padding-top: 9px;
+}
+
+.icons {
+    padding-right: 24px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    height: 64px;
+    width: 64px;
+}
+
+.around1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 50px;
+    font-size: 24px;
+    padding-bottom: 120px;
+}
+
+.imgicons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hover Effects */
+.joinnow:hover {
+    background-color: #ff4d4d;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.c2btn:hover {
+    background-color: #cc0000;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.emailbtn:hover {
+    background-color: #cc0000;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.c5img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .header, .card2, .card3 .destination, .comingsoon, .card4, .card5, .card6, .promo-container, .base-banner {
+        width: 100%;
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header, .card2, .card3 .destination, .comingsoon, .card4, .card5, .card6, .promo-container, .base-banner {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .card1 {
+        padding: 60px 20px;
+    }
+    
+    .card1 .discount {
+        font-size: 60px;
+    }
+    
+    .discountdescription {
+        font-size: 18px;
+    }
+    
+    .categories {
+        font-size: 36px;
+    }
+    
+    .card1>img {
+        width: 100%;
+        height: auto;
+        max-width: 500px;
+    }
+    
+    .c2details {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    
+    .c2heading {
+        font-size: 48px;
+    }
+    
+    .joinnow {
+        padding-top: 20px;
+        padding-left: 0;
+    }
+    
+    .card2>img {
+        padding-right: 0;
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+    }
+    
+    .card3 .destination {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+    
+    .c3details {
+        font-size: 24px;
+    }
+    
+    .comingsoon {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 20px;
+    }
+    
+    .cshead {
+        margin: 20px 0;
+        padding-top: 0;
+        text-align: center;
+    }
+    
+    .csdesc {
+        height: auto;
+        width: 100%;
+    }
+    
+    .csimg {
+        width: 200px;
+        height: 200px;
+        padding: 20px;
+    }
+    
+    .right {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .card4 {
+        padding: 40px 20px;
+        height: auto;
+    }
+    
+    .c4head {
+        font-size: 48px;
+    }
+    
+    .c4desc {
+        width: 100%;
+        height: auto;
+    }
+    
+    .promo-container {
+        height: auto;
+        position: static;
+    }
+    
+    .base-banner, .shopper-img, .gift-box, .discount-badge {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+    
+    .card5 {
+        padding: 40px 20px;
+        height: auto;
+    }
+    
+    .c5subtitle {
+        font-size: 36px;
+    }
+    
+    .c5desc {
+        width: 100%;
+    }
+    
+    .c5images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .c5img {
+        width: calc(50% - 10px);
+        height: auto;
+    }
+    
+    .card6 {
+        padding: 40px 20px;
+        height: auto;
+    }
+    
+    .c6title {
+        font-size: 36px;
+    }
+    
+    .c6desc {
+        width: 100%;
+        height: auto;
+    }
+    
+    .emailholder {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .email {
+        border-radius: 25px 25px 0 0;
+        width: 100%;
+    }
+    
+    .emailbtn {
+        border-radius: 0 0 25px 25px;
+        width: 100%;
+    }
+    
+    .around {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+    }
+    
+    .around>address {
+        width: 100%;
+    }
+    
+    .around1 {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .imgicons {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .icons {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .newyeartitle {
+        font-size: 24px;
+    }
+    
+    .newyearsubtitle, .newyeardescription {
+        font-size: 48px;
+    }
+    
+    .c2heading {
+        font-size: 36px;
+    }
+    
+    .c4head {
+        font-size: 36px;
+    }
+    
+    .c5img {
+        width: 100%;
+    }
 }
